@@ -8,3 +8,4 @@ bootstrap:
 .PHONY: cleanup
 cleanup:
 	@ if [ -d ".venv" ] ; then pipenv --rm ; fi
+	@ rm -rf Pipfile.lock
