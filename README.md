@@ -18,7 +18,11 @@ Please refer to your operating system package manager and/or documentation to in
 
 1. To create and initialize the Python based virtual environment, run `make bootstrap`;
 
-1. Switch to any local directory where you are working on Ansible related activities to leverage tools like `ansible`, `ansible-galaxy`, `ansible-lint`, `ansible-playbook`, `ansible-vault`, `molecule` and `yamllint`.
+1. Switch to any local directory where you are working on Ansible related activities to leverage tools like `ansible`, `ansible-creator`, `ansible-galaxy`, `ansible-lint`, `ansible-playbook`, `ansible-vault`, `molecule` and `yamllint`.
+
+    1. To create a new Ansible role: `ansible-galaxy role init role_name`. More details can be found [here](https://www.redhat.com/sysadmin/developing-ansible-role).
+
+    1. To create a new Ansible project: `ansible-creator init --project ansible-project --scm-org weather --scm-project demo`. More details can be found [here](https://ansible.readthedocs.io/projects/creator/installing/#initialize-ansible-project).
 
 1. When finished with your work, simple exit the virtual environment by typing `exit` on the terminal. This will bring you back to the directory where this repository lives.
 
